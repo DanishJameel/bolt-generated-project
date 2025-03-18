@@ -1,0 +1,48 @@
+.App {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #282c34;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #282c34;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    button {
+      background-color: #61dafb;
+      color: #282c34;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    button:hover {
+      background-color: #4fa3c3;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header, footer {
+        padding: 0.5rem 0;
+      }
+      main {
+        padding: 10px;
+      }
+    }
